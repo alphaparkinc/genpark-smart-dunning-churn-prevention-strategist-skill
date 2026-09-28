@@ -1,0 +1,29 @@
+{
+  "name": "genpark-smart-dunning-churn-prevention-strategist-skill",
+  "version": "1.0.0",
+  "description": "Intelligent payment recovery and smart dunning strategist optimizing decline-code retry windows and involuntary churn mitigation.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "dunning",
+    "fintech",
+    "churn-prevention",
+    "subscription-recovery",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "analyze_payment_failure",
+      "description": "Classify card decline codes (soft vs hard decline) and recovery actions."
+    },
+    {
+      "name": "generate_optimized_retry_schedule",
+      "description": "Compute payday-aligned intelligent retry intervals."
+    },
+    {
+      "name": "run_benchmark_smart_dunning",
+      "description": "Run smart dunning test suite across decline scenarios."
+    }
+  ]
+}
